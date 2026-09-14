@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.98" />
+    </linearGradient>
+
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+
+    <linearGradient id="accentGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+
+    <filter id="glowOrange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes floatCard3 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes pulseLed {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    @keyframes statusShift {
+      0%, 100% { fill: #10b981; }
+      50% { fill: #f59e0b; }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 40; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes bannerGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    .card-1 { animation: floatCard1 4.5s ease-in-out infinite; transform-origin: center; }
+    .card-2 { animation: floatCard2 4.5s ease-in-out infinite 1.5s; transform-origin: center; }
+    .card-3 { animation: floatCard3 4.5s ease-in-out infinite 3.0s; transform-origin: center; }
+    .live-dot { animation: pulseLed 1.8s ease-in-out infinite; transform-origin: 1045px 40px; }
+    .live-dot2 { animation: pulseLed 1.8s ease-in-out infinite 0.9s; }
+    .status-text { animation: statusShift 5s infinite; }
+    .stream-line { stroke: #38bdf8; stroke-dasharray: 6, 6; animation: flowLine 2s linear infinite; }
+    .bg-glow { animation: bannerGlow 6s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow -->
+  <circle cx="150" cy="60" r="220" fill="#ea580c" opacity="0.12" filter="url(#glowOrange)" class="bg-glow" />
+  <circle cx="1050" cy="300" r="240" fill="#0284c7" opacity="0.12" filter="url(#glowGreen)" class="bg-glow" />
+
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.15" stroke="#334155" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="360" />
+    <line x1="1140" y1="0" x2="1140" y2="360" />
+    <line x1="0" y1="85" x2="1200" y2="85" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+  </g>
+
+  <!-- Top Bar / Badges -->
+  <g transform="translate(60, 25)">
+    <rect x="0" y="0" width="220" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="15" cy="15" r="5" fill="#f97316" />
+    <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#fdba74" letter-spacing="0.5">DIRECT ORDERING 2026</text>
+
+    <rect x="232" y="0" width="180" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="246" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#94a3b8">0% COMMISSION TECH</text>
+
+    <!-- Live Ecosystem Pill -->
+    <g transform="translate(930, 0)">
+      <rect x="0" y="0" width="150" height="30" rx="15" fill="#064e3b" stroke="#059669" stroke-width="1" />
+      <circle cx="18" cy="15" r="4.5" fill="#34d399" class="live-dot" />
+      <text x="32" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#a7f3d0" letter-spacing="0.5">ECOSYSTEM LIVE</text>
+    </g>
+  </g>
+
+  <!-- Main Title & Subtitle -->
+  <g transform="translate(60, 95)">
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" fill="url(#titleGrad)" letter-spacing="-0.5">
+      Awesome Restaurant Online Ordering
+    </text>
+    <text x="0" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#94a3b8">
+      Curated Landscape of Direct Online Ordering, Branded Storefronts, Multi-Channel Delivery &amp; Open POS Engines
+    </text>
+  </g>
+
+  <!-- Connecting Stream Lines -->
+  <g opacity="0.8">
+    <path d="M 390 248 L 435 248" class="stream-line" stroke-width="2" fill="none" />
+    <polygon points="435,244 443,248 435,252" fill="#38bdf8" />
+    <path d="M 765 248 L 810 248" class="stream-line" stroke-width="2" fill="none" />
+    <polygon points="810,244 818,248 810,252" fill="#38bdf8" />
+  </g>
+
+  <!-- Flow Card 1: Direct Ordering Web / App -->
+  <g class="card-1" filter="url(#shadow)" transform="translate(60, 180)">
+    <rect width="330" height="135" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <rect width="330" height="4" rx="2" fill="url(#accentOrange)" />
+    
+    <rect x="18" y="16" width="34" height="34" rx="8" fill="#431407" />
+    <text x="25" y="40" font-size="18">📱</text>
+    
+    <text x="62" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Branded Storefront &amp; App</text>
+    <text x="62" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#ea580c">First-Party Direct Channel</text>
+    
+    <line x1="18" y1="62" x2="312" y2="62" stroke="#334155" stroke-width="0.8" />
+    
+    <text x="18" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Order #2084 • Dine-in &amp; Pickup</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748b">1x Truffle Burger, 1x Crisp Fries</text>
+    
+    <rect x="18" y="108" width="115" height="18" rx="9" fill="#14532d" />
+    <text x="28" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#4ade80">0% COMMISSIONS</text>
+
+    <text x="260" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#f8fafc">$28.50</text>
+  </g>
+
+  <!-- Flow Card 2: Dispatch & Aggregation -->
+  <g class="card-2" filter="url(#shadow)" transform="translate(435, 180)">
+    <rect width="330" height="135" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <rect width="330" height="4" rx="2" fill="url(#accentBlue)" />
+
+    <rect x="18" y="16" width="34" height="34" rx="8" fill="#082f49" />
+    <text x="25" y="40" font-size="18">⚡</text>
+
+    <text x="62" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">POS &amp; Aggregator Sync</text>
+    <text x="62" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#38bdf8">Bi-Directional Order Engine</text>
+
+    <line x1="18" y1="62" x2="312" y2="62" stroke="#334155" stroke-width="0.8" />
+
+    <text x="18" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Auto-Inject: Toast / Square / URY</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748b">DoorDash Drive • Uber Direct • Fleet</text>
+
+    <rect x="18" y="108" width="125" height="18" rx="9" fill="#1e1b4b" />
+    <text x="26" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#818cf8">REALTIME DISPATCH</text>
+
+    <circle cx="280" cy="117" r="4" fill="#38bdf8" class="live-dot2" />
+    <text x="290" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8">SYNC</text>
+  </g>
+
+  <!-- Flow Card 3: Kitchen Fulfillment & Expo -->
+  <g class="card-3" filter="url(#shadow)" transform="translate(810, 180)">
+    <rect width="330" height="135" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <rect width="330" height="4" rx="2" fill="url(#accentGreen)" />
+
+    <rect x="18" y="16" width="34" height="34" rx="8" fill="#064e3b" />
+    <text x="25" y="40" font-size="18">🍳</text>
+
+    <text x="62" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Kitchen &amp; Curbside Expo</text>
+    <text x="62" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#34d399">Fulfillment &amp; Guest Alerts</text>
+
+    <line x1="18" y1="62" x2="312" y2="62" stroke="#334155" stroke-width="0.8" />
+
+    <text x="18" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Station: Expo / KDS Routed</text>
+    <text x="18" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748b">SMS Ready Notification Sent</text>
+
+    <rect x="18" y="108" width="110" height="18" rx="9" fill="#064e3b" />
+    <text x="27" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34d399">READY IN 8 MIN</text>
+
+    <text x="250" y="121" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#10b981" class="status-text">● LIVE PREP</text>
+  </g>
+</svg>

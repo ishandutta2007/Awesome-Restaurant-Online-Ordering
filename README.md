@@ -5,7 +5,7 @@
 # 🍽️ Awesome Restaurant Online Ordering Ecosystem 🛵
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Restaurant-Online-Ordering?style=flat-square&logo=github" alt="GitHub Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Restaurant-Online-Ordering?style=flat-square&logo=github" alt="GitHub Forks"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Restaurant-Online-Ordering?style=flat-square&logo=github" alt="GitHub_Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Restaurant-Online-Ordering?style=flat-square&logo=github" alt="GitHub Forks"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a><a href="https://github.com/ishandutta2007/Awesome-Restaurant-Online-Ordering/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -66,57 +66,57 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ## 💻 Open-Source GitHub Projects
 
-*The following open-source restaurant online ordering and POS projects are **sorted in descending order by GitHub Stars** ⭐.*
+*The following open-source restaurant online ordering and POS projects are **sorted in descending order by GitHub_Stars** ⭐.*
 
-- 🔥 **[frappe/erpnext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+- 🔥 **[frappe/erpnext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
   Full-featured open-source ERP in Python/Frappe that includes restaurant POS, Kitchen Order Ticket (KOT) printing, order fulfillment queues, table management, and kitchen workflow extensions. The most-starred open foundation for self-hosted restaurant operations.
 
-- 🍴 **[tastyigniter/TastyIgniter](https://github.com/tastyigniter/TastyIgniter)** [![GitHub stars](https://img.shields.io/github/stars/tastyigniter/TastyIgniter?style=social&color=white)](https://github.com/tastyigniter/TastyIgniter/stargazers)  
+- 🍴 **[tastyigniter/TastyIgniter](https://github.com/tastyigniter/TastyIgniter)** [![GitHub_Stars](https://img.shields.io/github/stars/tastyigniter/TastyIgniter?style=social&color=white)](https://github.com/tastyigniter/TastyIgniter/stargazers)  
   Powerful, purpose-built open-source online ordering, table reservation, and restaurant management system built on Laravel. Provides a customer-facing ordering site, admin panel, menu/modifier management, delivery zones, and a growing extensions marketplace. The closest open-source equivalent to commercial SaaS ordering platforms.
 
-- ⭐ **[ury-erp/ury](https://github.com/ury-erp/ury)** [![GitHub stars](https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white)](https://github.com/ury-erp/ury/stargazers)  
+- ⭐ **[ury-erp/ury](https://github.com/ury-erp/ury)** [![GitHub_Stars](https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white)](https://github.com/ury-erp/ury/stargazers)  
   Open-source restaurant ERP built on Frappe/ERPNext featuring interactive Kitchen Display System (KDS), KOT printing, multi-kitchen station routing, online ordering integration, real-time order status, and delivery/takeout support.
 
-- 🍣 **[BernStrom/YumMeals](https://github.com/BernStrom/YumMeals)** [![GitHub stars](https://img.shields.io/github/stars/BernStrom/YumMeals?style=social&color=white)](https://github.com/BernStrom/YumMeals/stargazers)  
+- 🍣 **[BernStrom/YumMeals](https://github.com/BernStrom/YumMeals)** [![GitHub_Stars](https://img.shields.io/github/stars/BernStrom/YumMeals?style=social&color=white)](https://github.com/BernStrom/YumMeals/stargazers)  
   Online food ordering mobile app (iOS/Android) allowing customers to browse restaurants worldwide, view menus, and place orders. Built with SwiftUI and Firebase, it demonstrates a modern mobile-first direct ordering experience.
 
-- 📋 **[phojie/ordering-management-system](https://github.com/phojie/ordering-management-system)** [![GitHub stars](https://img.shields.io/github/stars/phojie/ordering-management-system?style=social&color=white)](https://github.com/phojie/ordering-management-system/stargazers)  
+- 📋 **[phojie/ordering-management-system](https://github.com/phojie/ordering-management-system)** [![GitHub_Stars](https://img.shields.io/github/stars/phojie/ordering-management-system?style=social&color=white)](https://github.com/phojie/ordering-management-system/stargazers)  
   Open-source restaurant/ordering management system with customer-facing ordering, admin dashboards, kitchen roles, and delivery-related workflows. Built with Nuxt.js/Vue, suitable for rapid customization.
 
-- 🖥️ **[ury-erp/pos](https://github.com/ury-erp/pos)** [![GitHub stars](https://img.shields.io/github/stars/ury-erp/pos?style=social&color=white)](https://github.com/ury-erp/pos/stargazers)  
+- 🖥️ **[ury-erp/pos](https://github.com/ury-erp/pos)** [![GitHub_Stars](https://img.shields.io/github/stars/ury-erp/pos?style=social&color=white)](https://github.com/ury-erp/pos/stargazers)  
   Web-based order management component (part of the URY ecosystem) for cashiers and captains, supporting dine-in, delivery, and takeout order types with real-time kitchen display integration.
 
-- 📱 **[ionicfirebaseapp/ionic-3-restaurantapp](https://github.com/ionicfirebaseapp/ionic-3-restaurantapp)** [![GitHub stars](https://img.shields.io/github/stars/ionicfirebaseapp/ionic-3-restaurantapp?style=social&color=white)](https://github.com/ionicfirebaseapp/ionic-3-restaurantapp/stargazers)  
+- 📱 **[ionicfirebaseapp/ionic-3-restaurantapp](https://github.com/ionicfirebaseapp/ionic-3-restaurantapp)** [![GitHub_Stars](https://img.shields.io/github/stars/ionicfirebaseapp/ionic-3-restaurantapp?style=social&color=white)](https://github.com/ionicfirebaseapp/ionic-3-restaurantapp/stargazers)  
   Free Ionic Restaurant mobile app template for online food ordering, built with Ionic 3 and Firebase. Provides a working customer ordering UI and cart system for restaurants building their first mobile ordering experience.
 
-- 🌐 **[jairiidriss/restaurant-website-php-mysql](https://github.com/jairiidriss/restaurant-website-php-mysql)** [![GitHub stars](https://img.shields.io/github/stars/jairiidriss/restaurant-website-php-mysql?style=social&color=white)](https://github.com/jairiidriss/restaurant-website-php-mysql/stargazers)  
+- 🌐 **[jairiidriss/restaurant-website-php-mysql](https://github.com/jairiidriss/restaurant-website-php-mysql)** [![GitHub_Stars](https://img.shields.io/github/stars/jairiidriss/restaurant-website-php-mysql?style=social&color=white)](https://github.com/jairiidriss/restaurant-website-php-mysql/stargazers)  
   Restaurant website built with PHP & MySQL providing online food ordering and table reservation systems. A solid starter template for self-hosted restaurant web ordering with a familiar LAMP-stack architecture.
 
-- 🍔 **[avocadopelvis/restaurant-web-app](https://github.com/avocadopelvis/restaurant-web-app)** [![GitHub stars](https://img.shields.io/github/stars/avocadopelvis/restaurant-web-app?style=social&color=white)](https://github.com/avocadopelvis/restaurant-web-app/stargazers)  
+- 🍔 **[avocadopelvis/restaurant-web-app](https://github.com/avocadopelvis/restaurant-web-app)** [![GitHub_Stars](https://img.shields.io/github/stars/avocadopelvis/restaurant-web-app?style=social&color=white)](https://github.com/avocadopelvis/restaurant-web-app/stargazers)  
   Full-stack restaurant web application with table booking, online food ordering, and delivery tracking. Covers the core online ordering workflow from menu browsing to order confirmation.
 
-- 🏛️ **[techadam/food-ordering-and-table-reservation-system-for-restaurants](https://github.com/techadam/food-ordering-and-table-reservation-system-for-restaurants)** [![GitHub stars](https://img.shields.io/github/stars/techadam/food-ordering-and-table-reservation-system-for-restaurants?style=social&color=white)](https://github.com/techadam/food-ordering-and-table-reservation-system-for-restaurants/stargazers)  
+- 🏛️ **[techadam/food-ordering-and-table-reservation-system-for-restaurants](https://github.com/techadam/food-ordering-and-table-reservation-system-for-restaurants)** [![GitHub_Stars](https://img.shields.io/github/stars/techadam/food-ordering-and-table-reservation-system-for-restaurants?style=social&color=white)](https://github.com/techadam/food-ordering-and-table-reservation-system-for-restaurants/stargazers)  
   Mobile-responsive PHP/MySQL web application enabling customers to place food orders online and make table reservations. Developed with mobile-first UX in mind, offering full admin management of orders and reservations.
 
-- 🥘 **[mighty840/kitchenasty](https://github.com/mighty840/kitchenasty)** [![GitHub stars](https://img.shields.io/github/stars/mighty840/kitchenasty?style=social&color=white)](https://github.com/mighty840/kitchenasty/stargazers)  
+- 🥘 **[mighty840/kitchenasty](https://github.com/mighty840/kitchenasty)** [![GitHub_Stars](https://img.shields.io/github/stars/mighty840/kitchenasty?style=social&color=white)](https://github.com/mighty840/kitchenasty/stargazers)  
   Self-hosted restaurant online ordering, table reservation, and management system. KitchenAsty enables restaurants, cafes, and takeaways to accept online orders for delivery and pickup, manage menus, handle table reservations, and run operations from a single admin panel.
 
-- 🚀 **[ahmedali5530/restaurant-pos](https://github.com/ahmedali5530/restaurant-pos)** [![GitHub stars](https://img.shields.io/github/stars/ahmedali5530/restaurant-pos?style=social&color=white)](https://github.com/ahmedali5530/restaurant-pos/stargazers)  
+- 🚀 **[ahmedali5530/restaurant-pos](https://github.com/ahmedali5530/restaurant-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/ahmedali5530/restaurant-pos?style=social&color=white)](https://github.com/ahmedali5530/restaurant-pos/stargazers)  
   Complete open-source Restaurant POS System built with React and SurrealDB designed for real-world cafés, restaurants, food trucks, and food chains. Handles everything from ordering → kitchen → delivery → staff → reporting → inventory → auth in one unified system.
 
-- 🏗️ **[DanMat/Restaurant-Management-System](https://github.com/DanMat/Restaurant-Management-System)** [![GitHub stars](https://img.shields.io/github/stars/DanMat/Restaurant-Management-System?style=social&color=white)](https://github.com/DanMat/Restaurant-Management-System/stargazers)  
+- 🏗️ **[DanMat/Restaurant-Management-System](https://github.com/DanMat/Restaurant-Management-System)** [![GitHub_Stars](https://img.shields.io/github/stars/DanMat/Restaurant-Management-System?style=social&color=white)](https://github.com/DanMat/Restaurant-Management-System/stargazers)  
   Full restaurant system — floor, orders, kitchen, payments, reservations & online ordering — rebuilt as an app on NimbusCMS. Includes live demo; the original 2014 PHP app is preserved in `/archive` for reference.
 
-- 📦 **[satisfecho/pos](https://github.com/satisfecho/pos)** [![GitHub stars](https://img.shields.io/github/stars/satisfecho/pos?style=social&color=white)](https://github.com/satisfecho/pos/stargazers)  
+- 📦 **[satisfecho/pos](https://github.com/satisfecho/pos)** [![GitHub_Stars](https://img.shields.io/github/stars/satisfecho/pos?style=social&color=white)](https://github.com/satisfecho/pos/stargazers)  
   Self-hosted, multi-tenant restaurant POS and ordering system with real-time kitchen displays, table management, reservations, Stripe + Revolut payment integration, split billing, shift management, provider inventory, and sales reports.
 
-- 🔧 **[nutrixpos/pos](https://github.com/nutrixpos/pos)** [![GitHub stars](https://img.shields.io/github/stars/nutrixpos/pos?style=social&color=white)](https://github.com/nutrixpos/pos/stargazers)  
+- 🔧 **[nutrixpos/pos](https://github.com/nutrixpos/pos)** [![GitHub_Stars](https://img.shields.io/github/stars/nutrixpos/pos?style=social&color=white)](https://github.com/nutrixpos/pos/stargazers)  
   Free open-source restaurant and retail management system with REST API architecture for inventory, sales, and product management. A lightweight self-hosted foundation for building custom online ordering workflows.
 
-- 🍞 **[openshiporg/openfront-restaurant](https://github.com/openshiporg/openfront-restaurant)** [![GitHub stars](https://img.shields.io/github/stars/openshiporg/openfront-restaurant?style=social&color=white)](https://github.com/openshiporg/openfront-restaurant/stargazers)  
+- 🍞 **[openshiporg/openfront-restaurant](https://github.com/openshiporg/openfront-restaurant)** [![GitHub_Stars](https://img.shields.io/github/stars/openshiporg/openfront-restaurant?style=social&color=white)](https://github.com/openshiporg/openfront-restaurant/stargazers)  
   Open-source Toast alternative built with Next.js and Keystone.js. Modular restaurant platform including Point of Sale, online ordering, table layout management, and back-of-house order tracking.
 
-- 🍕 **[BenJonesVA/OpenEats](https://github.com/BenJonesVA/OpenEats)** [![GitHub stars](https://img.shields.io/github/stars/BenJonesVA/OpenEats?style=social&color=white)](https://github.com/BenJonesVA/OpenEats/stargazers)  
+- 🍕 **[BenJonesVA/OpenEats](https://github.com/BenJonesVA/OpenEats)** [![GitHub_Stars](https://img.shields.io/github/stars/BenJonesVA/OpenEats?style=social&color=white)](https://github.com/BenJonesVA/OpenEats/stargazers)  
   Self-hosted restaurant POS system with order counter, kitchen display, table floor plan, checkout, and sales dashboard. Backed by Express + SQLite and runs on a single machine via Docker Compose with no cloud dependency.
 
 ---
